@@ -2,7 +2,7 @@
 @import url(../../bootstrap-5.0.2/css/bootstrap.min.css);
 
 .navbar{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(0,0,0,0)100%);
+    background: linear-gradient(to bottom, rgb(197, 197, 197) 30%, rgba(0,0,0,0)100%);
 }
 
 .navbar-header-left{
@@ -32,15 +32,15 @@
 }
 
 h1{
-    color: var(--bs-white);
+    color: var(--bs-dark);
 }
 
 h3{
-    color: var(--bs-white);
+    color: var(--bs-dark);
 }
 
 p{
-    color: var(--bs-white);
+    color: var(--bs-dark);
 }
 
 .font-brand{
@@ -55,19 +55,19 @@ p{
     font-size: 40px;
     font-weight: 800;
     line-height: 40px;
-    color: white;
+    color: var(--bs-dark);
 }
 
 .font-title-line{
     font-weight: 800;
-    color: var(--bs-white);
+    color: var(--bs-dark);
     font-size: 50px;
     letter-spacing: 10px;
     padding-left: 40px;
 }
 
 .font-copyright{
-    color: var(--bs-white);
+    color: var(--bs-dark);
     letter-spacing: 10px;
 }
 
